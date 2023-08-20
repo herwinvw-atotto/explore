@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "try-otto-layout"
+version = "0.0.1"
+description = ""
+authors = ["Herwin van Welbergen <h.vanwelbergen@otto.de>"]
+
+[tool.poetry.dependencies]
+python=">=3.9, <3.11"
+otto-layout = {git = "git@github.com:herwinvw-atotto/otto_layout.git", rev = "main"}
+numpy = "^1.25.2"
+pandas = "^2.0.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.25.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
